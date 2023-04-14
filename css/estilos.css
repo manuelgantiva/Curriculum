@@ -55,9 +55,51 @@ body {
 
   main{
     display: inline-block;
-    margin: 0px 0px 40px 0px;
+    margin: 0px;
+    background-color: white;
     width: 692px;
   }
+
+  main > article > h1{
+    color: #2878AB;
+    padding: 0px 20px;
+    margin: 0px 10px;
+  }
+
+  article.sumary > p{
+    color: black;
+    text-align: justify;
+    padding: 0px 20px;
+  }
+
+  hgroup > h1,  hgroup > h2{
+    color: black;
+    font-size: 15px;
+    margin: 5px;
+    padding: 0px 10px;
+  }
+
+  hgroup > h2{
+    font-weight: normal;
+  }
+
+  main ul{
+    margin: 5px;
+  }
+
+  article.Education section > h1{
+    font-size: 15px;
+    padding: 0px 30px;
+    margin: 5px;
+  } 
+
+  article.Education section > p{
+    padding: 0px 30px;
+    margin: 1px 5px;
+  } 
+
+  
+
 
   aside{
     display: inline-block;
