@@ -39,7 +39,7 @@ body {
     width: 300px;
   }
 
-  header > h1,h2{
+  header > h1,  header > h2{
     color: white;
     padding: 10px;
     margin: 5px;
@@ -50,5 +50,17 @@ body {
     color: white;
     list-style-type: square;
     list-style-position: inside;
+    width: 300px;
+  }
+
+  main{
+    display: inline-block;
+    margin: 0px 0px 40px 0px;
+    width: 692px;
+  }
+
+  aside{
+    display: inline-block;
+    margin: 0px;
     width: 300px;
   }
