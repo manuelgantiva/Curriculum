@@ -1,5 +1,6 @@
 /*pagina de estilos*/
 
+/*---Estilos Base-----*/
 *{
     border: 1px dotted tomato;
 }
@@ -13,6 +14,8 @@ body {
     border: 1px solid black;
     color : black ;
   }
+
+  /*---Estilos para el div de la clase cabecera-----*/
 
   div.cabecera{
     margin: 0px;
@@ -52,6 +55,8 @@ body {
     list-style-position: inside;
     width: 300px;
   }
+
+  /*---Estilos para el main-----*/
 
   main{
     display: inline-block;
@@ -98,11 +103,15 @@ body {
     margin: 1px 5px;
   } 
 
+  /*---Estilos para el footer-----*/
+
   footer{
     text-align: center;
     color: purple;
     background-color: azure;
   }
+
+  /*---Estilos para el aside-----*/
 
   aside{
     display: inline-block;
