@@ -72,10 +72,12 @@ body {
 
   aside > article > h1{
     color: #2878AB;
+    font-size: 20px;
     margin: 5px 0px;
   }
 
   aside > article > section > h1{
+    font-size: 15px;
     margin: 0px;
   }
 
