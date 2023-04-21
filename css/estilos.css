@@ -2,7 +2,7 @@
 
 /*---Estilos Base-----*/
 *{
-    border: 1px dotted tomato;
+    border: 0px dotted tomato;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
     max-width: 1000px;
     font-family: "Helvetica", "Arial", sans-serif;
     line-height: 1.5;
-    padding: 10px 20px;
+   /* padding: 10px 20px;*/
     border: 1px solid black;
     color : black ;
     display: flex;
