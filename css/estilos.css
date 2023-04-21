@@ -13,20 +13,23 @@ body {
     padding: 10px 20px;
     border: 1px solid black;
     color : black ;
+    display: flex;
+    flex-flow: row wrap;
   }
 
   /*---Estilos para el div de la clase cabecera-----*/
 
   div.cabecera{
+    display: flex;
+    flex-flow: row wrap;
     margin: 0px;
-    background-color:#2878AB
+    background-color:#2878AB;
+    flex-basis: 100%;
   }
 
   div.cabecera > div{
-    display: inline-block;
     margin: 0px;
-    width: 694px;
-    height: 500 px;
+    flex-grow: 2;
   }
 
   div.cabecera hr{
@@ -35,11 +38,12 @@ body {
   }
 
   div.cabecera figure{
-    display: inline-block;
     margin: 0px;
     padding: 0px;
-    text-align: center;
-    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
   }
 
   header > h1,  header > h2{
@@ -48,12 +52,16 @@ body {
     margin: 5px;
   }
 
+  nav{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
   nav > ul{
-    display: inline-block;
     color: white;
     list-style-type: square;
-    list-style-position: inside;
-    width: 300px;
+    list-style-position: outside;
+    
   }
 
   /*---Estilos para el main-----*/
